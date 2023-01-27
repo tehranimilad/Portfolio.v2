@@ -1,0 +1,11 @@
+.nav-link {
+    right: 100%
+}
+
+.navIcons {
+    float: right;
+    max-width: 20%;
+    justify-content: space-between;
+    margin: 2px;
+}
+

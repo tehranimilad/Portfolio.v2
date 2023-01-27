@@ -1,14 +1,21 @@
 import './App.css';
-import HomePage from './pages/Home';
-import LandingPage from './pages/LandingPage';
+import HomePage from './pages/HomePage';
+import Nav from './components/nav';
+
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <div className="App">
-        {/* <HomePage /> */}
-        <LandingPage />
+        <Nav />
+        <HomePage />
       </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/projects" element={<Projects />} />
+        <Route path="/learnmore" element={<LearnMore />} /> */}
+      </Routes>
     </>
   );
 }
