@@ -4,8 +4,11 @@
 
 .navIcons {
     float: right;
-    max-width: 20%;
     justify-content: space-between;
     margin: 2px;
 }
+
+/* .navImages {
+    max-width: 20%;
+} */
 

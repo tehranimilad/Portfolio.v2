@@ -15,6 +15,8 @@ function Nav() {
                 <img
                 src="https://seeklogo.com/images/L/linkedin-icon-logo-32AA14A009-seeklogo.com.png"
                 alt="Linked in Logo"
+                width="50"
+                className="navImages"
                 />
             </a>
             </div>
@@ -23,6 +25,8 @@ function Nav() {
             <img
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="GitHub Logo"
+            width="50"
+            className="navImages"
             />
             </a> 
             </div>
