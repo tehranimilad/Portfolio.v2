@@ -32,15 +32,16 @@ const HomePage = () => {
           <>
           <div className="backgroundImage">
             <div className="headliner">
-              <h1 className="crypto-animation">HEY  I'M MILAD <br /></h1>
+              <h1 className="crypto-animation">HI, I'M MILAD <br /></h1>
+              <Image className="headshot" src="https://ice-us-wdc-117394.icedrive.io/download?p=mzu2iJH8tyxlpadtKAJ1T3N3mBFprEY9fPuAz.rdKr.hdf3EUkwvC08fF89PV6Ti_GkkmD6idSSZlcYkJ.wmGmHreqQHbGHd3v3Fun_gKmI4.WL4gqx7Ke1EvvWXf..8sYhNlaIx6MmjPzY5ix0cIptTDN2_cPcXrRWeINJbO0vm9pfTzXqRRKmtc13tindi7iuaC95I0UaIO9qFWouD6yDuqYYWemAis674Axlqrlk-" />
             <div className="landing-page-container">
                  <div className="crypto-animation" fluid>
                       SOFTWARE <br/>ENGINEER
                   </div>                                               
               </div>
               <div className="projects">
-                  <p><a className="homeLinks" href="/projects">Projects</a></p>
-                  <p><a className="homeLinks" href="/">Learn More</a></p>
+                <p><a className="homeLinks" href="/projects">Projects</a></p>
+                <p><a variant className="homeLinks" href="/">Learn More</a></p>
               </div>
             </div>
           </div>

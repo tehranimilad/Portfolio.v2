@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @media (max-width: 600px) {
 
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
     .landing-page-container {
       color: #fff;
@@ -12,15 +12,14 @@
       justify-content: center;
       text-align: center;
       text-transform: uppercase;
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Anton', sans-serif;
       font-style: normal;
       width: auto;
       box-sizing: border-box;
-      letter-spacing: 4px;
+      letter-spacing: 3px;
       margin: 0;
       padding: 0;
       line-height: 1.2;
-      min-height: 50%;
     }
     
     span {
@@ -28,7 +27,7 @@
     }
     
     .landing-page-container .crypto-animation {
-      color: rgb(255, 123, 0);
+      color: rgb(255, 119, 0);
       margin-bottom: 12px;
     } 
     
@@ -50,7 +49,7 @@
     }
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .landing-page-container {
   color: #fff;
@@ -61,7 +60,7 @@
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Luckiest Guy', sans-serif;
   font-style: normal;
   width: auto;
   box-sizing: border-box;
@@ -76,9 +75,9 @@ span {
 }
 
 .landing-page-container .crypto-animation {
-  color: rgb(255, 123, 0);
-  margin-bottom: 12px;
-  text-align: center;
+    color:rgb(253, 160, 53);
+    margin-bottom: 12px;
+    text-align: center;
 } 
 
 .backgroundImage {
@@ -94,25 +93,36 @@ span {
 }
 
 .nameHeader {
-    color:rgb(255, 123, 0);
+    color:rgb(253, 160, 53);
     text-align: center;
 }
 
 .crypto-animation {
-    color:rgb(255, 123, 0);
+    color:rgb(253, 160, 53);
     font-size: 7vw;
     text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
 }
 
 .headliner {
     position: relative;
-    top: 250px;
+    top: 150px;
 }
 
 .homeLinks {
-    color:rgb(255, 123, 0);
+    color:rgb(21, 0, 255);
     text-align: center;
     font-size: 2em;
     display: block;
     margin: 0 auto;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+.headshot {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100px;
+    border: 10px solid transparent;
+    background-image: linear-gradient(to right, rgb(253, 160, 53),rgb(115, 0, 255));
 }

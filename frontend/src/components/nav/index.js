@@ -30,6 +30,16 @@ function Nav() {
             />
             </a> 
             </div>
+            <div>
+            <a className="navIcons" href="https://docs.google.com/document/d/1MzWaSuGeCjDPhTjd3XrxExC7DQkJxuk7/edit?usp=sharing&ouid=117772898957068889268&rtpof=true&sd=true" target="_blank">
+                <img
+                src="https://images.squarespace-cdn.com/content/v1/55e9ce26e4b0f0e15f28cc03/1555539083647-ZCYEGI5QXJTJPT4U5524/Resume-logo.png"
+                alt="Resume Logo"
+                width="90"
+                className="navImages"
+                />
+            </a>
+            </div>
         </nav>
       );
     }
