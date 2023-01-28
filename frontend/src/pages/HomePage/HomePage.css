@@ -78,6 +78,7 @@ span {
 .landing-page-container .crypto-animation {
   color: rgb(255, 123, 0);
   margin-bottom: 12px;
+  text-align: center;
 } 
 
 .backgroundImage {
@@ -99,10 +100,19 @@ span {
 
 .crypto-animation {
     color:rgb(255, 123, 0);
-    font-size: 5vw;
+    font-size: 7vw;
+    text-align: center;
 }
 
 .headliner {
     position: relative;
     top: 250px;
+}
+
+.homeLinks {
+    color:rgb(255, 123, 0);
+    text-align: center;
+    font-size: 2em;
+    display: block;
+    margin: 0 auto;
 }

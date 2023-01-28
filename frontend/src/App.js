@@ -1,5 +1,6 @@
 import './App.css';
 import HomePage from './pages/HomePage';
+import ProjectPage from './pages/Projects';
 import Nav from './components/nav';
 
 import { Routes, Route } from "react-router-dom";
@@ -13,8 +14,8 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/projects" element={<Projects />} />
-        <Route path="/learnmore" element={<LearnMore />} /> */}
+        <Route path="/projects" element={<ProjectPage />} />
+        {/* <Route path="/learnmore" element={<LearnMore />} /> */}
       </Routes>
     </>
   );
