@@ -2,7 +2,6 @@ import { useEffect } from "react"
 import Letterize from "letterizejs"
 import anime from "animejs";
 import './HomePage.css'
-import Image from 'react-bootstrap/Image'
 
 const HomePage = () => {
     useEffect(() => {
@@ -32,8 +31,13 @@ const HomePage = () => {
           <>
           <div className="backgroundImage">
             <div className="headliner">
-              <h1 className="mainPageTitle"> Hi I AM MILAD TEHRANI. <br/> I'M A FULL-STACK ENGINEER <br /> WITH A BACKGROUND IN MANAGEMENT <br /> INFORMATION SYSTEMS
-              </h1>                                          
+            <h1 className="mainPageTitle"> 
+            <span className="font-weight: normal;">Hey I'm </span>
+            <span className="spacer"></span>
+            <span className="bold"> Milad Tehrani</span>
+            <br />
+            <br /> I'M A <span className="bold">FULL-STACK ENGINEER</span>
+            </h1>                                        
               </div>
               <div className="landing-page-container">
               <div className="crypto-animation" fluid>

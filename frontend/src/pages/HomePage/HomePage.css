@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @media (max-width: 600px) {
 
-    @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap');
 
     .landing-page-container {
       color: #fff;
@@ -49,9 +49,9 @@
     }
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap');
 body {
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Unbounded', cursive;
 }
 
 span {
@@ -96,9 +96,17 @@ span {
 
 .homeLinks:hover {
     color:rgb(251, 255, 0);
+    text-decoration: underline;
 }
 
 .mainPageTitle {
     font-size: 60px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.spacer {
+    margin-right: 10px;
+  }
