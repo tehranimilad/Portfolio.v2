@@ -29,24 +29,20 @@ const HomePage = () => {
     
       return (
           <>
-          <div className="backgroundImage">
-            <div className="headliner">
-            <h1 className="mainPageTitle"> 
-            <span className="font-weight: normal;">Hey I'm </span>
+            <div className="homePageHeadliner">
+            <span className="font-weight: normal;">HEY I'M</span>
             <span className="spacer"></span>
-            <span className="bold"> Milad Tehrani</span>
+            <span className="bold"> MILAD TEHRANI</span>
             <br />
-            <br /> I'M A <span className="bold">FULL-STACK ENGINEER</span>
-            </h1>                                        
+            <br /> I'M A <span className="bold">FULL-STACK ENGINEER</span>                                      
               </div>
               <div className="landing-page-container">
               <div className="crypto-animation" fluid>
               <div className="projects">
                 <p><a className="homeLinks" href="/projects">Projects</a></p>
-                <p><a variant className="homeLinks" href="/">Learn More</a></p>
+                <p><a className="homeLinks" href="/">Learn More</a></p>
               </div>
             </div>
-          </div>
           </div>
           </>
       )

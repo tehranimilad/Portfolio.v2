@@ -1,71 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@media (max-width: 600px) {
-
-    @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap');
-
-    .landing-page-container {
-      color: #fff;
-      font-weight: 380;
-      font-size: 5vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      text-transform: uppercase;
-      font-family: 'Anton', sans-serif;
-      font-style: normal;
-      width: auto;
-      box-sizing: border-box;
-      letter-spacing: 3px;
-      margin: 0;
-      padding: 0;
-      line-height: 1.2;
-    }
-    
-    span {
-        display: inline-block;
-    }
-    
-    .landing-page-container .crypto-animation {
-      color: rgb(255, 119, 0);
-      margin-bottom: 12px;
-    } 
-    
-    .backgroundImage {
-        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -1;
-    }
-    
-    .nameHeader {
-        color:rgb(255, 123, 0);
-        text-align: center;
-    }
-
-}
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap');
 body {
     font-family: 'Unbounded', cursive;
-}
-
-span {
-    display: inline-block;
-}
-
-.landing-page-container .crypto-animation {
-    color:rgb(253, 160, 53);
-    margin-bottom: 12px;
-    font-size: 3vw;
-    text-align: center;
-} 
-
-.backgroundImage {
     background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
     background-size: cover;
     background-position: center;
@@ -77,12 +12,27 @@ span {
     z-index: -1;
 }
 
+span {
+    display: inline-block;
+}
+
+.landing-page-container .crypto-animation {
+    color:rgb(253, 160, 53);
+    margin-bottom: 12px;
+    font-size: 3vw;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+
 .headliner {
     position: relative;
     top: 300px;
     color:rgb(253, 160, 53);
     text-align: center;
-    min-height: 50%;
+    min-height: 55%;
+    font-size: 51px;
 }
 
 .homeLinks {
@@ -91,7 +41,7 @@ span {
     text-align: center;
     font-size: 1.5em;
     font-family: 'Luckiest Guy', sans-serif;
-    min-height: 50%;
+
 }
 
 .homeLinks:hover {
@@ -110,3 +60,43 @@ span {
 .spacer {
     margin-right: 10px;
   }
+
+.projectImages {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+.projectDesc {
+    color:rgb(253, 160, 53);
+    font-size: 20px;
+}
+
+.projectTitle {
+    color:rgb(253, 160, 53);
+    font-weight: bolder;
+}
+
+.projectContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 175px; 
+    margin: 0 auto;
+    }
+  
+.projectDiv {
+    text-align: center;
+    width: 45%;
+    margin: 20px;
+    display: inline-block;
+}
+
+.homePageHeadliner{
+    color:rgb(253, 160, 53);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
