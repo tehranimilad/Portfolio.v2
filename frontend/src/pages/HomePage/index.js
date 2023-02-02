@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Letterize from "letterizejs"
 import anime from "animejs";
 import './HomePage.css'
+import Nav from "../../components/nav";
 
 const HomePage = () => {
     useEffect(() => {
@@ -29,6 +30,7 @@ const HomePage = () => {
     
       return (
           <>
+            <Nav />
             <div className="homePageHeadliner">
             <span className="font-weight: normal;">HEY I'M</span>
             <span className="spacer"></span>

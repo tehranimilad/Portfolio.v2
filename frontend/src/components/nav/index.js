@@ -9,7 +9,7 @@ function Nav() {
     // Allow user to log out, clears local storage, sets login status to false, and then navigate back home.  
   
       return (
-        <Navbar>
+        <Navbar className="justify-content-end">
           <div>
             <a className="navIcons" href="https://www.linkedin.com/in/miladtehrani/" target="_blank">
                 <img
