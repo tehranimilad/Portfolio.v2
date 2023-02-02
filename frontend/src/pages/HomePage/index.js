@@ -19,13 +19,13 @@ const HomePage = () => {
       });
       animation
           .add({
-            scale: 0.8})
+            scale: 0.7})
           .add({
-            letterSpacing: "6px"})
+            letterSpacing: "3px"})
           .add({
-            scale: .9})
+            scale: 1})
           .add({
-            letterSpacing: "7px"});
+            letterSpacing: "5px"});
   }, []);
     
       return (
@@ -35,14 +35,14 @@ const HomePage = () => {
             <span className="font-weight: normal;">HEY I'M</span>
             <span className="spacer"></span>
             <span className="bold"> MILAD TEHRANI</span>
-            <br />
-            <br /> I'M A <span className="bold">FULL-STACK ENGINEER</span>                                      
+
+            <br /> I'M A <span className="bold">SOFTWARE ENGINEER</span>                                      
               </div>
               <div className="landing-page-container">
               <div className="crypto-animation" fluid>
               <div className="projects">
-                <p><a className="homeLinks" href="/projects">Projects</a></p>
-                <p><a className="homeLinks" href="/">Learn More</a></p>
+                <p><a className="homeLinks" href="/projects">PROJECTS</a></p>
+                <p><a className="homeLinks" href="/learnmore">LEARN MORE</a></p>
               </div>
             </div>
           </div>

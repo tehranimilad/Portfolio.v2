@@ -11,7 +11,8 @@ const ProjectPage = () => {
       <div>
             <Button href="/">Back</Button>
             <Nav />
-      <Container className="projectContainer">
+            <h1 className="projectHeadliner"> My Projects</h1>
+      <Container className="learnMoreInfo">
         <Card className="text-center">
         <Card.Header>Auto Enthusiast MEN-Stack App</Card.Header>
         <Col><Image className="projectImages" src="https://github.com/tehranimilad/Cruise-North-America/raw/main/screenshots/Desktop1.png"></Image>
@@ -34,14 +35,15 @@ const ProjectPage = () => {
         <Card.Body>
               <Card.Title className="projectTitle">Cryptosis</Card.Title>
               <Card.Text className="projectDesc">
-                MERN-stack app with full CRUD functionality using Javascript on Node.js,Express, and React frameworks; data stored using MongoDB database through Mongoose.
+                MERN-stack app with full CRUD functionality using Javascript on Node.js,Express, and React frameworks; relational database stored using MongoDB database through Mongoose. Cryptosis uses third-party API's in order to retrieve Cryptocurrency relevant data. 
               </Card.Text>
               <Button variant="primary" href="https://cryptosis-app.herokuapp.com/">Go to Cryptosis</Button>
         </Card.Body>
         <Card.Footer className="text-muted">Deployed onto Heroku</Card.Footer>
-        </Col>
+        </Col>v
         </Card>
     </Container>
+    <br />
     </div>
     )
 }
