@@ -25,7 +25,6 @@ function Nav() {
             <img
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="GitHub Logo"
-            width="50"
             className="navImages"
             />
             </a> 
@@ -33,9 +32,8 @@ function Nav() {
             <div>
             <a className="navIcons" href="https://docs.google.com/document/d/1MzWaSuGeCjDPhTjd3XrxExC7DQkJxuk7/edit?usp=sharing&ouid=117772898957068889268&rtpof=true&sd=true" target="_blank">
                 <img
-                src="https://images.squarespace-cdn.com/content/v1/55e9ce26e4b0f0e15f28cc03/1555539083647-ZCYEGI5QXJTJPT4U5524/Resume-logo.png"
+                src="http://cdn.onlinewebfonts.com/svg/img_235431.png"
                 alt="Resume Logo"
-                width="90"
                 className="navImages"
                 />
             </a>
