@@ -20,9 +20,8 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "cd frontend/ && npm run build && cd ../backend/ && node server.js",
-        "frontend": "cd frontend/ && react-scripts start",
-        "backend": "cd backend/ && nodemon server.js"
+        "start": "node.app",
+        "frontend": "cd frontend/ && react-scripts start"
       },
     "eslintConfig": {
       "extends": [
