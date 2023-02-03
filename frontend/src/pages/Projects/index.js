@@ -1,10 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import Nav from '../../components/nav';
+import cruiseAmerica from './assets/screenRecording1.gif'
+import cruiseAmerica2 from './assets/screenRecording2.gif'
 
 const ProjectPage = () => {
     return (
@@ -15,7 +16,7 @@ const ProjectPage = () => {
       <Container className="learnMoreInfo">
         <Card className="text-center">
         <Card.Header>Auto Enthusiast MEN-Stack App</Card.Header>
-        <Col><Image className="projectImages" src="https://github.com/tehranimilad/Cruise-North-America/raw/main/screenshots/Desktop1.png"></Image>
+        <Col><Image className="projectImages" src={cruiseAmerica}></Image>
         <Card.Body>
         <Card.Title className="projectTitle">Cruise America</Card.Title>
               <Card.Text className="projectDesc">
@@ -31,7 +32,7 @@ const ProjectPage = () => {
         <br />
         <Card className="text-center">
         <Card.Header>Cryptocurrency MERN-Stack App</Card.Header>
-        <Col className="projectColumn"><Image className="projectImages" src="https://user-images.githubusercontent.com/114964227/213065191-2c5cc740-a143-4d57-b55e-2669c995cb8f.png"></Image>
+        <Col className="projectColumn"><Image className="projectImages" src={cruiseAmerica2}></Image>
         <Card.Body>
               <Card.Title className="projectTitle">Cryptosis</Card.Title>
               <Card.Text className="projectDesc">
