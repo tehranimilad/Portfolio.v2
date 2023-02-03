@@ -5,6 +5,7 @@ body {
         background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         top: 0;
         bottom: 0;
         left: 0;
@@ -69,7 +70,7 @@ body {
     
     .projectDesc {
         color:rgb(253, 160, 53);
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .projectTitle {
@@ -107,7 +108,7 @@ body {
         background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
         display: block;
         margin: 0 auto;
-        max-width: 400px;
+        max-width: 250px;
     }
     
     .projectHeadliner {
@@ -123,6 +124,8 @@ body {
         background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
         display: block;
         margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
 }
 
