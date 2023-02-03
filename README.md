@@ -12,3 +12,6 @@ I chose to re-create my first porfolio using React because it allows me to showc
 I have a solid understanding of React, and I am eager to continue and learn more. 
 
 The website allows user's to view my LinkedIn, Github, and view my resume. Additionally, users can view my projects and learn more about me. 
+
+### Deployed Site: 
+https://tehrani-milad-portfolio.herokuapp.com/
