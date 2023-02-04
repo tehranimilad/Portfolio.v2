@@ -12,7 +12,7 @@ const ProjectPage = () => {
       <div>
             <Button href="/">Back</Button>
             <Nav />
-            <h1 className="projectHeadliner"> My Projects</h1>
+            <h1 className="projectHeadliner">PROJECTS</h1>
       <Container className="learnMoreInfo">
         <Card className="text-center">
         <Card.Header>Auto Enthusiast MEN-Stack App</Card.Header>
