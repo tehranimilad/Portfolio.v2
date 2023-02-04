@@ -42,7 +42,7 @@ const HomePage = () => {
               <div className="crypto-animation" fluid>
               <div className="projects">
                 <p><a className="homeLinks" href="/projects">PROJECTS</a></p>
-                <p><a className="homeLinks" href="/learnmore">LEARN MORE</a></p>
+                <p><a className="homeLinks" href="/learnmore">ABOUT ME</a></p>
               </div>
             </div>
           </div>

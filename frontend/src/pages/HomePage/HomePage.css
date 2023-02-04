@@ -66,12 +66,12 @@ body {
       }
     
     .projectDesc {
-        color:rgb(253, 160, 53);
+        color:rgb(0, 0, 0);
         font-size: 20px;
     }
     
     .projectTitle {
-        color:rgb(253, 160, 53);
+        color:rgb(0, 0, 0);
         font-weight: bolder;
         font-size: 30px;
     }
@@ -193,12 +193,12 @@ body {
           }
         
         .projectDesc {
-            color:rgb(253, 160, 53);
+            color:rgb(0, 0, 0);
             font-size: 25px;
         }
         
         .projectTitle {
-            color:rgb(253, 160, 53);
+            color:rgb(0, 0, 0);
             font-weight: bolder;
             font-size: 30px;
         }
