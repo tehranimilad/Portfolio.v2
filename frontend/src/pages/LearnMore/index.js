@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
+import headshot from './assets/headshot.png';
 
 const LearnMore = () => {
     return (
@@ -11,7 +12,7 @@ const LearnMore = () => {
             <Button href="/">Back</Button>
             <Nav />
            
-                <Image className="avatar" src="https://ice-us-wdc-117394.icedrive.io/download?p=mzu2iJH8tyxlpadtKAJ1T.waFDeSnO2pbzncbHUjr4Ghdf3EUkwvC08fF89PV6Ti_GkkmD6idSSZlcYkJ.wmGmHreqQHbGHd3v3Fun_gKmI4.WL4gqx7Ke1EvvWXf..8sYhNlaIx6MmjPzY5ix0cIptTDN2_cPcXrRWeINJbO0vm9pfTzXqRRKmtc13tindi7iuaC95I0UaIO9qFWouD6yDuqYYWemAis674Axlqrlk-" fluid></Image>
+                <Image className="avatar" src={headshot} fluid></Image>
            
                 <Container className="learnMoreInfo">
                     <Card className="text-center">
