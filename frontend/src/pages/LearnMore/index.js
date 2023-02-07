@@ -5,6 +5,9 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import headshot from './assets/headshot.png';
+import ListGroup from 'react-bootstrap/ListGroup';
+import Col from 'react-bootstrap/Col';
+
 
 const LearnMore = () => {
     return (
@@ -24,8 +27,17 @@ const LearnMore = () => {
                             Hey I'm Milad, its nice to meet you.
                             I’m a Software Engineer with a background in Management Information Systems. I have unique experience in Learning and Development, which allows me to collectively work with others to solve complex problems. My experience enables me to approach every issue with a logical and compassionate perspective.
                         </Card.Text>
+                        </Card.Body>
+                        </Card>
+                        <Card className="text-center">
+                        <Card.Body>
+                        <Card.Title className="projectTitle">Skills</Card.Title>
+                            <ListGroup className="projectDesc" horizontal>
+                                Javascript, React, Python, MongoDB, Node.js, Express, SQL, HTML, CSS, Bootstrap
+                            </ListGroup>
                     </Card.Body>
                     </Card>
+                    
                 </Container>
 
             
