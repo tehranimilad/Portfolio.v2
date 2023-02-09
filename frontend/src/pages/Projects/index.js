@@ -45,7 +45,7 @@ const ProjectPage = () => {
               </div>
         </Card.Body>
         <Card.Footer className="text-muted">Deployed onto Heroku</Card.Footer>
-        </Col>v
+        </Col>
         </Card>
     </Container>
     <br />
