@@ -24,7 +24,9 @@ const ProjectPage = () => {
                 Utilized Railway to deploy a full stack app; two models with full CRUD functionality
                 Created wireframes and drafted user stories using Wireframe Pro.
               </Card.Text>
-              <Button variant="primary" href="https://cruise-north-america.up.railway.app/">Go to Cruise North America</Button>
+              <div className="projectButtonDiv">
+              <Link className="projectButtons" to="https://cruise-north-america.up.railway.app/" target="_blank">Go to Cruise North America</Link>
+              </div>
         </Card.Body>
         <Card.Footer className="text-muted">Deployed onto Railway and Heroku</Card.Footer>
         </Col>
@@ -38,7 +40,9 @@ const ProjectPage = () => {
               <Card.Text className="projectDesc">
                 MERN-stack app with full CRUD functionality using Javascript on Node.js,Express, and React frameworks; relational database stored using MongoDB database through Mongoose. Cryptosis uses third-party API's in order to retrieve Cryptocurrency relevant data. 
               </Card.Text>
-              <Button variant="primary" href="https://cryptosis-app.herokuapp.com/">Go to Cryptosis</Button>
+              <div className="projectButtonDiv">
+              <Link className="projectButtons" to="https://cryptosis-app.herokuapp.com/" target="_blank">Go to Cryptosis</Link>
+              </div>
         </Card.Body>
         <Card.Footer className="text-muted">Deployed onto Heroku</Card.Footer>
         </Col>v
