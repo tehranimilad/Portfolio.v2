@@ -1,254 +1,273 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap');
 @media (max-width:700px) {
 body {
-        font-family: 'Unbounded', cursive;
-        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        z-index: -1;
-    }
-    
-    span {
-        display: inline-block;
-    }
-    
-    .landing-page-container .crypto-animation {
-        color:rgb(253, 160, 53);
-        margin-bottom: 12px;
-        font-size: 3vw;
-        text-align: center;
-        align-items: center;
-        margin: 0 auto;
-        display: block;
-    }
-    
-    .headliner {
-        position: relative;
-        top: 300px;
-        color:rgb(253, 160, 53);
-        text-align: center;
-        min-height: 55%;
-        font-size: 60px;
-    }
-    
-    .homeLinks {
-        color:rgb(253, 160, 53);
-        min-height: 50%;
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Unbounded', sans-serif;
-    
-    }
-    
-    .homeLinks:hover {
-        color:rgb(251, 255, 0);
-        text-decoration: underline;
-    }
-    
-    .mainPageTitle {
-        font-size: 70px;
-    }
-    
-    .bold {
-        font-weight: bold;
-    }
-    
-    .spacer {
-        margin-right: 10px;
-      }
-    
-    .projectImages {
-        max-width: 100%;
-        width: auto;
-        height: auto;
-      }
-    
-    .projectDesc {
-        color:rgb(0, 0, 0);
-        font-size: 20px;
-    }
-    
-    .projectTitle {
-        color:rgb(0, 0, 0);
-        font-weight: bolder;
-        font-size: 30px;
-    }
-    
-    .projectContainer {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin: 0 auto;
-        }
-      
-    .projectDiv {
-        text-align: center;
-        width: 45%;
-        margin: 20px;
-        display: inline-block;
-    }
-    
-    .homePageHeadliner{
-        color:rgb(253, 160, 53);
-        text-align: center;
-        font-size: 35px;
-        padding-top: 40px;
-        padding-bottom: 30px;
+    font-family: 'Unbounded', cursive;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+span {
+    display: inline-block;
+}
+
+.landing-page-container .crypto-animation {
+    color:rgb(253, 160, 53);
+    margin-bottom: 12px;
+    font-size: 3vw;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.headliner {
+    position: relative;
+    top: 300px;
+    color:rgb(253, 160, 53);
+    text-align: center;
+    min-height: 55%;
+    font-size: 60px;
+}
+
+.homeLinks {
+    color:rgb(253, 160, 53);
+    min-height: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Unbounded', sans-serif;
+
+}
+
+.homeLinks:hover {
+    color:rgb(251, 255, 0);
+    text-decoration: underline;
+}
+
+.mainPageTitle {
+    font-size: 70px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.spacer {
+    margin-right: 10px;
     }
 
-    .avatar {
-        border-radius: 50px;
-        border: 15px solid transparent;
-        background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
-        display: block;
-        margin: 0 auto;
-        max-width: 250px;
-    }
-    
-    .projectHeadliner {
-        color: rgb(253, 160, 53);
-        text-align: center;
-        font-weight: bold;
-        font-size: 50px;
+.projectImages {
+    max-width: 100%;
+    width: auto;
+    height: auto;
     }
 
-    .learnMoreInfo {
-        border-radius: 50px;
-        border: 15px solid transparent;
-        background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
-        display: block;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 15px;
+.projectDesc {
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.projectTitle {
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.projectContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
     }
+    
+.projectDiv {
+    text-align: center;
+    width: 45%;
+    margin: 20px;
+    display: inline-block;
+}
+
+.homePageHeadliner{
+    color:rgb(253, 160, 53);
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.avatar {
+    border-radius: 50px;
+    border: 15px solid transparent;
+    background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.projectHeadliner {
+    color: rgb(253, 160, 53);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.learnMoreInfo {
+    border-radius: 50px;
+    border: 15px solid transparent;
+    background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 
 }
 
 @media (min-width:701px) {
-    body {
-        font-family: 'Unbounded', cursive;
-        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        z-index: -1;
-        }
-        
-        span {
-            display: inline-block;
-        }
-        
-        .landing-page-container .crypto-animation {
-            color:rgb(253, 160, 53);
-            margin-bottom: 12px;
-            font-size: 3vw;
-            text-align: center;
-            align-items: center;
-            margin: 0 auto;
-            display: block;
-        }
-        
-        .headliner {
-            position: relative;
-            top: 300px;
-            color:rgb(253, 160, 53);
-            text-align: center;
-            min-height: 55%;
-            font-size: 60px;
-        }
-        
-        .homeLinks {
-            color:rgb(253, 160, 53);
-            min-height: 50%;
-            text-align: center;
-            font-size: 50px;
-            font-family: 'Unbounded', sans-serif;
-        
-        }
-        
-        .homeLinks:hover {
-            color:rgb(251, 255, 0);
-            text-decoration: underline;
-        }
-        
-        .mainPageTitle {
-            font-size: 70px;
-        }
-        
-        .bold {
-            font-weight: bold;
-        }
-        
-        .spacer {
-            margin-right: 10px;
-          }
-        
-        .projectImages {
-            max-width: 100%;
-            width: auto;
-            height: auto;
-          }
-        
-        .projectDesc {
-            color:rgb(0, 0, 0);
-            font-size: 25px;
-        }
-        
-        .projectTitle {
-            color:rgb(0, 0, 0);
-            font-weight: bolder;
-            font-size: 30px;
-        }
-        
-        .projectContainer {
-            display: block;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            margin: 0 auto;
-            }
-          
-        .projectDiv {
-            text-align: center;
-            width: 45%;
-            margin: 20px;
-            display: inline-block;
-        }
-        
-        .homePageHeadliner{
-            color:rgb(253, 160, 53);
-            text-align: center;
-            font-size: 76px;
-            padding-top: 80px;
-            padding-bottom: 30px;
-        }
-    
-        .avatar {
-            border-radius: 50px;
-            border: 15px solid transparent;
-            background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
-            display: block;
-            margin: 0 auto;
-            max-width: 400px;
-        }
-        
-        .projectHeadliner {
-            color: rgb(253, 160, 53);
-            text-align: center;
-            font-weight: bold;
-            font-size: 50px;
-        }
-    
-        .learnMoreInfo {
-            border-radius: 50px;
-            border: 15px solid transparent;
-            background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
-            display: block;
-            margin: 0 auto;
-        }
+body {
+font-family: 'Unbounded', cursive;
+background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/016/067/original/abstract-colorful-liquid-background-free-video.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+z-index: -1;
+}
+
+span {
+    display: inline-block;
+}
+
+.landing-page-container .crypto-animation {
+    color:rgb(253, 160, 53);
+    margin-bottom: 12px;
+    font-size: 3vw;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.headliner {
+    position: relative;
+    top: 300px;
+    color:rgb(253, 160, 53);
+    text-align: center;
+    min-height: 55%;
+    font-size: 60px;
+}
+
+.homeLinks {
+    color:rgb(253, 160, 53);
+    min-height: 50%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Unbounded', sans-serif;
+
+}
+
+.homeLinks:hover {
+    color:rgb(251, 255, 0);
+    text-decoration: underline;
+}
+
+.mainPageTitle {
+    font-size: 70px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.spacer {
+    margin-right: 10px;
     }
+
+.projectImages {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    }
+
+.projectDesc {
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.projectTitle {
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.projectContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    }
+    
+.projectDiv {
+    text-align: center;
+    width: 45%;
+    margin: 20px;
+    display: inline-block;
+}
+
+.homePageHeadliner{
+    color:rgb(253, 160, 53);
+    text-align: center;
+    font-size: 76px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.avatar {
+    border-radius: 50px;
+    border: 15px solid transparent;
+    background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.projectHeadliner {
+    color: rgb(253, 160, 53);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.learnMoreInfo {
+    border-radius: 50px;
+    border: 15px solid transparent;
+    background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.projectButtons {
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    border-radius: 7px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.projectButtons:hover {
+    background-color: rgb(0, 0, 186);
+    color: white;
+}
+
+.projectButtonDiv {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+}
 
