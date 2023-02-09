@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import headshot from './assets/headshot.png';
-import ListGroup from 'react-bootstrap/ListGroup';
 
 
 const LearnMore = () => {
