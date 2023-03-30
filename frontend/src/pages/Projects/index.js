@@ -26,7 +26,7 @@ const ProjectPage = () => {
                 Created wireframes and drafted user stories using Wireframe Pro.
               </Card.Text>
               <div className="projectButtonDiv">
-              <Link className="projectButtons" to="https://cruise-north-america.up.railway.app/" target="_blank">Go to Cruise North America</Link>
+              <Link className="projectButtons" to="https://cruise-north-america.herokuapp.com/" target="_blank">Go to Cruise North America</Link>
               </div>
         </Card.Body>
         <Card.Footer className="text-muted">Deployed onto Railway and Heroku</Card.Footer>
