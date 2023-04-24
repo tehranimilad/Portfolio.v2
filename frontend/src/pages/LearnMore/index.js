@@ -11,7 +11,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 const LearnMore = () => {
     return (
         <div>
-            <Button href="/">Back</Button>
+            <Button className="backBtn" href="/">Back</Button>
             <Nav />
            
                 <Image className="avatar" src={headshot} fluid></Image>

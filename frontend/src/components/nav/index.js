@@ -14,7 +14,7 @@ function Nav() {
             <img
             src="https://seeklogo.com/images/L/linkedin-icon-logo-32AA14A009-seeklogo.com.png"
             alt="Linked in Logo"
-            width="50"
+            width="40"
             className="navImages"
             />
             </a>
@@ -25,6 +25,7 @@ function Nav() {
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="GitHub Logo"
             className="navImages"
+            width="40"
             />
             </a> 
             </div>
@@ -34,6 +35,7 @@ function Nav() {
             src="http://cdn.onlinewebfonts.com/svg/img_235431.png"
             alt="Resume Logo"
             className="navImages"
+            width="40"
             />
             </a>
             </div>
