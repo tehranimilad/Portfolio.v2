@@ -289,5 +289,10 @@ span {
 .projectButtonDiv {
     padding-bottom: 15px;
 }
+
+.backBtn  {
+    margin-left: 5px;
+    margin-top: 5px;
+}
 }
 
