@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const ProjectPage = () => {
     return (
       <div>
-            <Button href="/">Back</Button>
+            <Button className="backBtn" href="/">Back</Button>
             <Nav />
             <h1 className="projectHeadliner">PROJECTS</h1>
       <Container className="learnMoreInfo">
