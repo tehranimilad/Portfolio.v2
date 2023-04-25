@@ -7,7 +7,7 @@
 
 ### Approach Taken: 
 
-I chose to re-create my first porfolio using React because it allows me to showcase the skills and tools I've learned along my coding journey. \
+I chose to re-create my first porfolio using React because it allows me to showcase the skills and tools I've learned along my coding journey. 
 
 I have a solid understanding of React, and I am eager to continue and learn more. 
 
