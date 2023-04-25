@@ -10,7 +10,7 @@ import headshot from './assets/headshot.png';
 const LearnMore = () => {
     return (
         <div>
-            <Button href="/">Back</Button>
+            <Button className="backBtn" href="/">Back</Button>
             <Nav />
            
                 <Image className="avatar" src={headshot} fluid></Image>
