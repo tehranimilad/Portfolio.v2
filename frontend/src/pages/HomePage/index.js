@@ -35,6 +35,9 @@ const HomePage = () => {
             <h1 className="noBold">Hey I'm <span className="nameBold">Milad Tehrani</span></h1>
             <h1 className="noBold">I'm A <span className="nameBold">Software Engineer</span></h1>
             </div> 
+            <div className="skillSet">
+            <a></a>
+            </div>
               {/* <div className="landing-page-container">
               <div className="crypto-animation" fluid>
               <div className="projects">
