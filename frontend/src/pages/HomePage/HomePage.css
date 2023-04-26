@@ -304,5 +304,19 @@ span {
 .nameBold {
     color: rgb(255, 0, 0);
 }
+
+.skillLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  .skillText {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
 }
 

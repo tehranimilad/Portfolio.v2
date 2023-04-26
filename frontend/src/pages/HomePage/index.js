@@ -36,8 +36,10 @@ const HomePage = () => {
             <h1 className="noBold">I'm A <span className="nameBold">Software Engineer</span></h1>
             </div> 
             <div className="skillSet">
-            
-              <img className="skillImg" src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo-1024x640.png" alt="JS" />
+            <a className="skillLink">
+              <span className="skillText">JavaScript</span>
+              <img className="skillImg" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="JS" />
+            </a>
             <a>Javascript, React, Python, MongoDB, Node.js, Express, SQL, HTML, CSS, Bootstrap</a>
             </div>
               {/* <div className="landing-page-container">
