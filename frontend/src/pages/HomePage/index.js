@@ -34,8 +34,10 @@ const HomePage = () => {
             <div className="homePageHeadliner">
             <span className="font-weight: normal;">HEY I'M</span>
             <span className="spacer"></span>
+            </div>
+            <div>
             <span className="bold"> MILAD TEHRANI</span>
-
+            
             <br /> I'M A <span className="bold">SOFTWARE ENGINEER</span>                                      
               </div>
               <div className="landing-page-container">
