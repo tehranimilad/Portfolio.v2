@@ -13,7 +13,7 @@ body {
 span {
     display: inline-block;
 }
-
+/* 
 .landing-page-container .crypto-animation {
     color:rgb(253, 160, 53);
     margin-bottom: 12px;
@@ -22,7 +22,7 @@ span {
     align-items: center;
     margin: 0 auto;
     display: block;
-}
+} */
 
 .headliner {
     position: relative;
@@ -161,7 +161,7 @@ span {
     display: inline-block;
 }
 
-.landing-page-container .crypto-animation {
+/* .landing-page-container .crypto-animation {
     color:rgb(253, 160, 53);
     margin-bottom: 12px;
     font-size: 3vw;
@@ -169,32 +169,32 @@ span {
     align-items: center;
     margin: 0 auto;
     display: block;
-}
+} */
 
-.headliner {
+/* .headliner {
     position: relative;
     top: 300px;
     color:rgb(253, 160, 53);
     text-align: center;
     min-height: 55%;
     font-size: 60px;
-}
+} */
 
-.homeLinks {
+/* .homeLinks {
     color:rgb(253, 160, 53);
     min-height: 50%;
     text-align: center;
     font-size: 50px;
     font-family: 'Unbounded', sans-serif;
 
-}
+} */
 
-.homeLinks:hover {
+/* .homeLinks:hover {
     color:rgb(255, 0, 0);
     text-decoration: underline;
-}
+} */
 
-.mainPageTitle {
+/* .mainPageTitle {
     font-size: 70px;
 }
 
@@ -204,7 +204,7 @@ span {
 
 .spacer {
     margin-right: 10px;
-    }
+    } */
 
 .projectImages {
     max-width: 100%;
