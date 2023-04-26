@@ -34,8 +34,7 @@ const HomePage = () => {
             <div>
             <h1 className="noBold">Hey I'm <span className="nameBold">Milad Tehrani</span></h1>
             <h1 className="noBold">I'm A <span className="nameBold">Software Engineer</span></h1>
-            </div> 
-            
+            </div>
             <div className="skillSet">
             <a className="skillLink">
               <span className="skillText">JavaScript</span>
@@ -57,7 +56,29 @@ const HomePage = () => {
               <span className="skillText">Python</span>
               <img className="skillImg2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" />
             </a>
-            <a>Javascript, React, Python, MongoDB, Node.js, Express, SQL, HTML, CSS, Bootstrap</a>
+            <a className="skillLink">
+              <span className="skillText">MongoDB</span>
+              <img className="skillImg2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/2048px-Antu_mongodb.svg.png" alt="MongoDb" />
+            </a>
+            <a className="skillLink">
+              <span className="skillText">Node.js</span>
+              <img className="skillImg4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="Nodejs" />
+            </a>
+            <a className="skillLink">
+              <span className="skillText">Express.js</span>
+              <img className="skillImg4" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" alt="Express" />
+            </a>
+            <a className="skillLink">
+              <span className="skillText">SQL</span>
+              <img className="skillImg3" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" />
+            </a>
+            <a className="skillLink">
+              <span className="skillText">Bootstrap</span>
+              <img className="skillImg4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" />
+            </a>
+          
+
+        
             </div>
               {/* <div className="landing-page-container">
               <div className="crypto-animation" fluid>
