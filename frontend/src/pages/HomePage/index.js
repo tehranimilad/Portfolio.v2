@@ -31,15 +31,8 @@ const HomePage = () => {
       return (
           <>
             <Nav />
-            <div className="homePageHeadliner">
-            <span className="font-weight: normal;">HEY I'M</span>
-            <span className="spacer"></span>
-            </div>
-            <div>
-            <span className="bold"> MILAD TEHRANI</span>
-            
-            <br /> I'M A <span className="bold">SOFTWARE ENGINEER</span>                                      
-              </div>
+            <h1 className="noBold">Hey I'm <span className="nameBold">Milad Tehrani</span></h1>
+            <h1 className="noBold">I'm A <span className="nameBold">Software Engineer</span></h1>
               <div className="landing-page-container">
               <div className="crypto-animation" fluid>
               <div className="projects">

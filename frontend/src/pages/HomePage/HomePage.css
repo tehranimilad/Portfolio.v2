@@ -294,5 +294,15 @@ span {
     margin-left: 5px;
     margin-top: 5px;
 }
+
+.noBold {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.nameBold {
+    color: rgb(255, 0, 0);
+}
 }
 
