@@ -305,6 +305,11 @@ span {
     color: rgb(255, 0, 0);
 }
 
+.skillSet {
+    display: flex;
+    flex-direction: row;
+}
+
 .skillLink {
     display: flex;
     flex-direction: column;
@@ -312,11 +317,20 @@ span {
     text-align: center;
     font-size: 1.2rem;
     text-decoration: none;
-  }
-  .skillText {
+}
+
+.skillText {
     color: white;
     text-decoration: none;
     margin-bottom: 0.5rem;
-  }
+}
+
+.skillImg  {
+    max-width: 36%;
+}
+
+.skillImg2  {
+    max-width: 7%;
+}
 }
 

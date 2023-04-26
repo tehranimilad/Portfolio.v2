@@ -40,6 +40,10 @@ const HomePage = () => {
               <span className="skillText">JavaScript</span>
               <img className="skillImg" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="JS" />
             </a>
+            <a className="skillLink">
+              <span className="skillText">React</span>
+              <img className="skillImg2" src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
+            </a>
             <a>Javascript, React, Python, MongoDB, Node.js, Express, SQL, HTML, CSS, Bootstrap</a>
             </div>
               {/* <div className="landing-page-container">
