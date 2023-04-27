@@ -194,9 +194,9 @@ span {
     text-decoration: underline;
 } */
 
-/* .mainPageTitle {
+ /* .mainPageTitle {
     font-size: 70px;
-}
+} */
 
 .bold {
     font-weight: bold;
@@ -204,7 +204,7 @@ span {
 
 .spacer {
     margin-right: 10px;
-    } */
+    } 
 
 .projectImages {
     max-width: 100%;
@@ -307,18 +307,16 @@ span {
 
 .skillSet {
     display: flex;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 75%;
+    max-width: 50%;
+    /* justify-content: space-evenly; */
 }
 
 .skillLink {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 1.2rem;
+    /* justify-content: space-evenly; */
+    align-items: center; 
+    font-size: 15px;
     text-decoration: none;
     
 }
