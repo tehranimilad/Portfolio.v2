@@ -307,7 +307,7 @@ span {
 
 .skillSet {
     display: flex;
-    max-width: 50%;
+    /* max-width: 100%; */
     /* justify-content: space-evenly; */
 }
 
