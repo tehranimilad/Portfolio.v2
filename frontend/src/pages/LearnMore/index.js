@@ -23,7 +23,7 @@ const LearnMore = () => {
                         </Card.Title>
                         <Card.Text className="projectDesc">
                             Hey I'm Milad, its nice to meet you.
-                            I’m a Software Engineer with a background in Management Information Systems. I have unique experience in Learning and Development, which allows me to collectively work with others to solve complex problems. My experience enables me to approach every issue with a logical and compassionate perspective.
+                            I'm a highly skilled software engineer with a background in management information systems who is committed to providing cutting-edge solutions that enhance operational efficiency and provide outcomes. I have a passion for technology and use my knowledge to solve challenging issues and assist organizations in achieving their objectives.
                         </Card.Text>
                         <Card.Title className="projectTitle">Skills</Card.Title>
                         <Card.Text className="projectDesc">
