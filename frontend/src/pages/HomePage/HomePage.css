@@ -291,7 +291,7 @@ span {
 }
 
 .noBold {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 45px;
 }
@@ -309,7 +309,7 @@ span {
 .skillLink {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     align-items: center; 
     font-size: 15px;
     text-decoration: none;
@@ -317,13 +317,13 @@ span {
 }
 
 .skillText {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
 
 .skillImg  {
-    max-width: 60%;
+    max-width:85%;
 }
 
 .skillImg2  {
@@ -331,11 +331,11 @@ span {
 }
 
 .skillImg3  {
-    max-width: 70%;
+    max-width: 75%;
 }
 
 .skillImg4  {
-    max-width: 30%;
+    max-width: 35%;
 }
 }
 
