@@ -101,8 +101,6 @@ span {
 
 .avatar {
     border-radius: 50px;
-    border: 15px solid transparent;
-    background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
     display: block;
     margin: 0 auto;
     max-width: 250px;
@@ -249,12 +247,9 @@ span {
 
 .avatar {
     border-radius: 50px;
-    border: 15px solid transparent;
-    background: linear-gradient(to right, rgb(253, 160, 53), #00f) border-box;
     display: block;
     margin: 0 auto;
     max-width: 310px;
-    margin-bottom: 15px;
 }
 
 .projectHeadliner {
