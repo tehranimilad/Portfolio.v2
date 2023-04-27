@@ -55,7 +55,7 @@ const HomePage = () => {
                             Milad Tehrani
                         </Card.Title> */}
                         <Card.Text className="projectDesc">
-                        I am a highly skilled software engineer with a background in Management Information Systems, dedicated to delivering innovative solutions that improve business processes and drive results. With a passion for technology, I leverage my expertise to solve complex problems and help businesses achieve their goals. 
+                        I'm a highly skilled software engineer with a background in management information systems who is committed to providing cutting-edge solutions that enhance operational efficiency and provide outcomes. I have a passion for technology and use my knowledge to solve challenging issues and assist organizations in achieving their objectives.
                         </Card.Text>
                         <Card.Title className="projectTitle">Skills</Card.Title>
                         <Card.Text className="projectDesc">

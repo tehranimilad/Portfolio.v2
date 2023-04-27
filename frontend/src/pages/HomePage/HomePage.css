@@ -212,8 +212,7 @@ span {
 
 .projectDesc {
     color:rgb(0, 0, 0);
-    font-size: 25px;
-    padding-bottom: 15px;
+    font-size: 20px;
 }
 
 .projectTitle {
@@ -249,7 +248,7 @@ span {
     border-radius: 50px;
     display: block;
     margin: 0 auto;
-    max-width: 310px;
+    max-width: 250px;
 }
 
 .projectHeadliner {
