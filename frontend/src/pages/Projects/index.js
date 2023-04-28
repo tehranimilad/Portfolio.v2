@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';import Card from 'react-bootstrap/Card';
 import Nav from '../../components/nav';
 import cruiseAmerica from './assets/screenRecording1.gif'
 import cruiseAmerica2 from './assets/screenRecording2.gif'
+import Image from 'react-bootstrap/esm/Image';
 import { Link } from 'react-router-dom';
 
 const ProjectPage = () => {
