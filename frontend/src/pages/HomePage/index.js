@@ -54,57 +54,53 @@ const HomePage = () => {
                         {/* <Card.Title className="projectTitle">
                             Milad Tehrani
                         </Card.Title> */}
-                        <Card.Text className="projectDesc">
-                        I'm a highly skilled software engineer with a background in management information systems who is committed to providing cutting-edge solutions that enhance operational efficiency and provide outcomes. I have a passion for technology and use my knowledge to solve challenging issues and assist organizations in achieving their objectives.
-                        </Card.Text>
-                        <Card.Title className="projectTitle">Skills</Card.Title>
-                        <Card.Text className="projectDesc">
-                        <div className="skillSet">
+                   <Card.Text className="projectDesc">
+    <div className="skill-container">
+        <div className="skillSet">
             <a className="skillLink">
-              <span className="skillText">JavaScript</span>
-              <img className="skillImg" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="JS" />
+                <span className="skillText">JavaScript</span>
+                <img className="skillImg" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="JS" />
             </a>
             <a className="skillLink">
-              <span className="skillText">HTML</span>
-              <img className="skillImg2" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML" />
+                <span className="skillText">HTML</span>
+                <img className="skillImg2" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML" />
             </a>
             <a className="skillLink">
-              <span className="skillText">CSS</span>
-              <img className="skillImg3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS" />
+                <span className="skillText">CSS</span>
+                <img className="skillImg3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS" />
             </a>
             <a className="skillLink">
-              <span className="skillText">React</span>
-              <img className="skillImg2" src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
+                <span className="skillText">React</span>
+                <img className="skillImg2" src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
             </a>
             <a className="skillLink">
-              <span className="skillText">Python</span>
-              <img className="skillImg2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" />
+                <span className="skillText">Python</span>
+                <img className="skillImg2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" />
             </a>
             <a className="skillLink">
-              <span className="skillText">MongoDB</span>
-              <img className="skillImg2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/2048px-Antu_mongodb.svg.png" alt="MongoDb" />
+                <span className="skillText">MongoDB</span>
+                <img className="skillImg2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/2048px-Antu_mongodb.svg.png" alt="MongoDb" />
             </a>
             <a className="skillLink">
-              <span className="skillText">Node.js</span>
-              <img className="skillImg4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="Nodejs" />
+                <span className="skillText">Node.js</span>
+                <img className="skillImg4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="Nodejs" />
             </a>
             <a className="skillLink">
-              <span className="skillText">Express.js</span>
-              <img className="skillImg3" src="https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png" alt="Express" />
+                <span className="skillText">SQL</span>
+                <img className="skillImg" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" />
             </a>
             <a className="skillLink">
-              <span className="skillText">SQL</span>
-              <img className="skillImg3" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" />
+                <span className="skillText">Bootstrap</span>
+                <img className="skillImg4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" />
             </a>
             <a className="skillLink">
-              <span className="skillText">Bootstrap</span>
-              <img className="skillImg4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" />
+                <span className="skillText">Git</span>
+                <img className="skillImg" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" />
             </a>
-          
+        </div>
+    </div>
+</Card.Text>
 
-        
-            </div>
-                        </Card.Text>
                 
         
                     </Card.Body>
