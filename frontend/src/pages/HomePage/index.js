@@ -90,7 +90,7 @@ const HomePage = () => {
             </a>
             <a className="skillLink">
               <span className="skillText">Express.js</span>
-              <img className="skillImg4" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" alt="Express" />
+              <img className="skillImg3" src="https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png" alt="Express" />
             </a>
             <a className="skillLink">
               <span className="skillText">SQL</span>
