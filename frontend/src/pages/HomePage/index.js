@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Letterize from "letterizejs"
 import anime from "animejs";
 import './HomePage.css'
+import Footer from "../../components/footer";
 import Nav from "../../components/nav";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
