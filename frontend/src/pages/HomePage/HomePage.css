@@ -13,16 +13,6 @@ body {
 span {
     display: inline-block;
 }
-/* 
-.landing-page-container .crypto-animation {
-    color:rgb(253, 160, 53);
-    margin-bottom: 12px;
-    font-size: 3vw;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    display: block;
-} */
 
 .headliner {
     position: relative;
@@ -159,42 +149,7 @@ span {
     display: inline-block;
 }
 
-/* .landing-page-container .crypto-animation {
-    color:rgb(253, 160, 53);
-    margin-bottom: 12px;
-    font-size: 3vw;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    display: block;
-} */
 
-/* .headliner {
-    position: relative;
-    top: 300px;
-    color:rgb(253, 160, 53);
-    text-align: center;
-    min-height: 55%;
-    font-size: 60px;
-} */
-
-/* .homeLinks {
-    color:rgb(253, 160, 53);
-    min-height: 50%;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Unbounded', sans-serif;
-
-} */
-
-/* .homeLinks:hover {
-    color:rgb(255, 0, 0);
-    text-decoration: underline;
-} */
-
- /* .mainPageTitle {
-    font-size: 70px;
-} */
 
 .bold {
     font-weight: bold;
@@ -301,8 +256,6 @@ span {
 
 .skillSet {
     display: flex;
-    /* max-width: 100%; */
-    /* justify-content: space-evenly; */
 }
 
 .skillLink {
